@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+const takkalBook =new Promise((resolve,reject)=>{
+    let bookingSuccess=false
+    if(bookingSuccess)
+    resolve()
+    else
+    reject()
+})
+takkalBook.then(success)
+.catch(failure)
+
+function success(){
+    console.log("thanks buddy! i will send money")
+}
+function failure (){
+    console.log("thanks for trying! i will book a bus")
+}
+
+</script>
+
+    
+</body>
+</html>
